@@ -23,7 +23,7 @@ namespace ConsoleApp2
             if (a < b)
             {
                 string res = System.String.Format("{0} is less than than {1}", a, b);
-                callback(false, res);
+                callback(false, res );
             }
         }
     }
